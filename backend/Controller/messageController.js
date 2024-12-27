@@ -23,7 +23,7 @@ const sendInvite = async(name,email)=>{
             from: config.Email,
             to:email,
             subject: `Start Chatting with your friend`,
-            html:"<p> Hii,<br>Your friend <b>" + name + "</b> is inviting you to Chat on NChat where you can chat with your friends"
+            html:"<p> Hii,<br>Your friend <b>" + name + "</b> is inviting you to Chat on NChat where you can chat with your friends<a href='https://chatapp-ccq1.onrender.com/'>NChat</a> </p>"
         }
 
         Transport.sendMail(mailoption,function(error,info){
