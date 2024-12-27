@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
 import {Avatar, Box, Button, Drawer, DrawerBody, DrawerContent, DrawerHeader, DrawerOverlay, Input, Menu, MenuButton, MenuDivider, MenuItem, MenuList, Spinner, Text, Tooltip, useDisclosure, useToast} from '@chakra-ui/react'
-import {BellIcon, ChevronDownIcon, PhoneIcon} from '@chakra-ui/icons'
+import {BellIcon, ChevronDownIcon} from '@chakra-ui/icons'
 import ChatContext from '../../Context/ChatContext'
 import MyProfile from './MyProfile'
 import { useNavigate } from 'react-router-dom'
@@ -8,7 +8,6 @@ import ChatLoading from './ChatLoading'
 import UserListItem from '../UserAvatar/UserListItem'
 import { getSender } from '../../config/ChatLogics'
 import InviteFriend from './InviteFriend'
-// import NotificationBadge, { Effect } from 'react-notification-badge'
 
 const SideDrawer = () => {
 

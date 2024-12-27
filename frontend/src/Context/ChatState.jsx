@@ -1,10 +1,7 @@
-import React, { useContext, useEffect, useMemo, useState } from 'react'
+import React, {useEffect, useState } from 'react'
 import ChatContext from './ChatContext'
 import { useNavigate } from 'react-router-dom'
-// import { useDisclosure } from '@chakra-ui/react'
 import axios from 'axios'
-
-
 
 const ChatState = ({children}) => {
 
